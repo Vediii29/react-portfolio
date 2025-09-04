@@ -2,20 +2,41 @@ import { useState } from "react";
 import { cn } from "@/lib/utils";
 
 const skills = [
+  // Programming Languages
+  { name: "Java", level: 85, category: "programming" },
+  { name: "JavaScript", level: 90, category: "programming" },
+  { name: "SQL", level: 80, category: "programming" },
+
   // Frontend
-  { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 80, category: "frontend" },
+  { name: "HTML", level: 95, category: "frontend" },
+  { name: "CSS", level: 90, category: "frontend" },
+  { name: "Bootstrap", level: 85, category: "frontend" },
   { name: "Tailwind CSS", level: 85, category: "frontend" },
+  { name: "React.js", level: 80, category: "frontend" },
+  { name: "React Router", level: 75, category: "frontend" },
+  { name: "Redux", level: 70, category: "frontend" },
 
-  // Backend/Programming
-  { name: "Java", level: 85, category: "backend" },
-  { name: "SQL", level: 80, category: "backend" },
+  // Backend
+  { name: "Spring Boot", level: 75, category: "backend" },
+  { name: "Spring JPA", level: 70, category: "backend" },
+  { name: "RESTful APIs", level: 70, category: "backend" },
 
-  // Tools
+  // Databases
+  { name: "MySQL", level: 80, category: "database" },
+  { name: "PostgreSQL", level: 75, category: "database" },
+
+  // Tools & Platforms
   { name: "Git/GitHub", level: 85, category: "tools" },
+  { name: "Postman", level: 80, category: "tools" },
   { name: "VS Code", level: 90, category: "tools" },
+  { name: "Maven", level: 75, category: "tools" },
+
+  // Core Concepts
+  { name: "OOP", level: 85, category: "concepts" },
+  { name: "DSA", level: 80, category: "concepts" },
+  { name: "Operating Systems", level: 70, category: "concepts" },
 ];
+
 
 const categories = ["all", "frontend", "backend", "tools"];
 

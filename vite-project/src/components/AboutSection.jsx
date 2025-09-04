@@ -12,18 +12,16 @@ export const AboutSection = () => {
           {/* Left Content */}
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold">
-              IT Graduate & Frontend Enthusiast
+IT Graduate & Full-Stack Developer
             </h3>
 
             <p className="text-muted-foreground">
-              I'm Vedika Deshmukh, an Information Technology graduate from Sinhagad College of Engineering, Pune.
-              I enjoy building responsive and user-friendly web applications using modern technologies like HTML, CSS, JavaScript, and React.
+             I’m Vedika Deshmukh, an Information Technology graduate from Sinhagad College of Engineering, Pune. I specialize in building responsive, user-friendly web applications using modern frontend frameworks and also have hands-on experience with backend development and databases.
             </p>
 
             <p className="text-muted-foreground">
-              I completed a web development internship at Scalefull Technology, where I worked on creating responsive websites using core frontend technologies.
-              I'm a quick learner who loves exploring new tools to grow as a developer.
-            </p>
+              I completed a web development internship at Scalefull Technology, where I worked on creating responsive websites using core frontend technologies. Along with strong programming fundamentals in Java and SQL, I have project experience with React, Spring Boot, and RESTful APIs. I’m a quick learner who enjoys exploring new tools and continuously improving my development skills.
+              </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
               <a href="#contact" className="cosmic-button">

@@ -31,7 +31,23 @@ const projects = [
     description:
       "A personal portfolio site to showcase my skills, projects, and contact info. Built with React and Tailwind CSS to ensure responsiveness and performance.",
     tags: ["ReactJS"],
-    githubUrl: "#",
+    githubUrl: "https://github.com/Vediii29/react-portfolio"
+  },
+  {
+    id: 5,
+    title: "Money Manager - Full-Stack Expense Tracker",
+    description:
+      "A full-stack web app to track expenses, featuring a dynamic dashboard built with React and Tailwind CSS, secure REST APIs with Spring Boot and JWT, and a MySQL database.",
+    tags: ["React.js", "Spring Boot", "Tailwind CSS", "MySQL"],
+    githubUrl: "https://github.com/Vediii29/money-manager-frontend", // Remember to add your GitHub URL
+  },
+  {
+    id: 6,
+    title: "Student Enrollment API",
+    description:
+      "A backend application to manage student and coach enrollments. Features RESTful APIs built with Spring Boot, a MySQL database, and role-based access control using Spring Security and JWT.",
+    tags: ["Java", "SpringBoot", "RestfulAPI", "MySQL", "Spring Security"],
+    githubUrl: "https://github.com/Vediii29/enrollment-api",
   },
 ];
 
